@@ -1,4 +1,4 @@
-import arikPhoto from "./assets/arik.jpg";
+import arikPhoto from "./assets/arik.png";
 
 export default function ArikPortfolio() {
   const experience = [
