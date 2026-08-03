@@ -3,9 +3,9 @@ import arikPhoto from "./assets/arik.png";
 export default function ArikPortfolio() {
   const stats = [
     {
-      value: "20%",
-      label: "Faster review turnaround",
-      sub: "projected post-launch impact",
+      value: "17",
+      label: "User pain points prioritized",
+      sub: "distilled from 93 complaints across 50+ comment letters",
     },
     {
       value: "192",
@@ -50,11 +50,12 @@ export default function ArikPortfolio() {
       period: "Jun 2026 - Present",
       featured: true,
       bullets: [
-        "Led product validation for FINRA's AI-powered Compliance Screener: analyzed 50+ regulatory comment letters to surface 17 customer pain points, mapped them to product use cases, and authored a feature brief with success metrics and roadmap recommendations for the highest-impact opportunity.",
-        "Designed a 7-KPI measurement framework with success targets, decision triggers, and automation plans to track post-launch performance, projecting $600,000 in annual ROI and a 20% reduction in review turnaround time.",
-        "Owned customer feedback-driven discovery for FINRA's regulatory filing platform: analyzed 192 CSAT survey responses, prioritized 15 improvements using impact-vs-effort analysis, and delivered leadership recommendations projected to lift customer satisfaction by 6-10 percentage points.",
-        "Won FINRA's company-wide Creatathon with a gamified blockchain learning platform, running comparative usability studies and iterating on qualitative and quantitative feedback; the solution is being evaluated for enterprise-wide adoption.",
-        "Ran onboarding and adoption analysis for FINRA's AI developer-tooling pilot, prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
+        "Validated FINRA's AI-powered Compliance Screener against industry feedback: distilled 93 complaints from 50+ regulatory comment letters into 17 prioritized user pain points, then scored product coverage to pinpoint the highest-impact gap and authored its feature brief.",
+        "Proposed 3 future opportunities, each mapped to a documented user pain point and its key dependency, to guide the product's longer-term direction.",
+        "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product's feasibility gate, defining success targets, decision triggers, baselines, and automation plans to track post-launch performance.",
+        "Owned customer feedback-driven product discovery for FINRA's regulatory filing platform: analyzed 192 CSAT survey responses, prioritized 15 platform improvements using impact-vs-effort analysis, and delivered leadership recommendations projected to lift customer satisfaction by 6-10 percentage points.",
+        "Won FINRA's company-wide Creatathon with a gamified blockchain learning platform, iterating on comparative usability studies and user feedback; the solution is now being evaluated for broader internal adoption.",
+        "Conducted onboarding and adoption analysis for an AI developer-tooling pilot, identifying and prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
       ],
       tags: [
         "Product Discovery",
@@ -70,17 +71,17 @@ export default function ArikPortfolio() {
     {
       role: "Web Assistant",
       company: "Maryland Robotics Center",
-      period: "Aug 2025 - Jun 2026",
+      period: "Aug 2025 - Present",
       bullets: [
-        "Designed and deployed new Drupal and HTML pages, improving navigation, accessibility, and content discoverability for 1,000+ users.",
-        "Managed project operations including budgets, timelines, and stakeholder communication.",
+        "Designed and deployed new Drupal and HTML pages, improving navigation and accessibility for 1,000+ users.",
+        "Translated content requirements from faculty and research teams into site updates, coordinating budgets, timelines, and delivery end to end.",
       ],
       tags: [
         "Web Publishing",
         "Accessibility",
-        "Content Discoverability",
-        "Project Operations",
+        "Content Management",
         "Stakeholder Management",
+        "Project Coordination",
       ],
     },
     {
@@ -89,9 +90,9 @@ export default function ArikPortfolio() {
       period: "Aug 2024 - Jan 2025",
       bullets: [
         "Resolved 150+ Jira service tickets supporting software and hardware issues for university staff.",
-        "Managed an inventory database for 300+ devices, cutting asset discrepancies by 30% through systematic tracking and regular audits.",
+        "Managed an inventory database for 300+ devices, reducing asset discrepancies by 30% through systematic audits.",
         "Configured and deployed 150+ devices across Windows, macOS, and Linux.",
-        "Supported AV installations in 20+ rooms, improving setup efficiency by 25% with Jira-based request tracking.",
+        "Provided technical support for AV installations in 20+ rooms, improving setup efficiency by 25%.",
       ],
       tags: [
         "Jira",
@@ -114,7 +115,7 @@ export default function ArikPortfolio() {
         "Led a team from customer discovery through MVP, owning direction and scope.",
         "Ran customer interviews and user research, translating insights into personas, user stories, requirements, and a prioritized feature set.",
         "Designed wireframes, prototypes, and UI mockups in Figma, iterating on user and stakeholder feedback.",
-        "Shipped budgeting, transaction management, and financial analytics features.",
+        "Collaborated on implementing budgeting, transaction management, and financial analytics features.",
       ],
       tags: [
         "Product Discovery",
@@ -167,11 +168,11 @@ export default function ArikPortfolio() {
       "Pendo",
       "Jira",
       "Miro",
-      "Power BI",
+      "Confluence",
+      "User Research",
       "Product Analytics",
       "KPI Development",
       "Roadmapping",
-      "Wireframing",
     ],
     technical: [
       "SQL",
@@ -334,6 +335,10 @@ export default function ArikPortfolio() {
                   <p className="mt-1 font-semibold text-white">Dec 2026</p>
                 </div>
               </div>
+              <p className="mt-4 text-center text-sm text-slate-400">
+                Based in Maryland &middot;{" "}
+                <span className="text-slate-200">open to relocating</span>
+              </p>
             </div>
           </div>
         </div>
@@ -356,7 +361,7 @@ export default function ArikPortfolio() {
           ))}
         </div>
         <p className="mt-3 text-center text-xs text-slate-500">
-          From my current internship at FINRA. Figures marked "projected" reflect forecasted, pre-launch impact.
+          Metrics reflect work from my internship at FINRA and roles at the University of Maryland.
         </p>
       </section>
 
@@ -663,6 +668,14 @@ export default function ArikPortfolio() {
               LinkedIn
             </a>
             <a
+              href="https://github.com/arikhasan2210"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl border border-white/20 px-5 py-3 font-semibold text-white transition hover:border-cyan-300/50 hover:bg-cyan-400/10 hover:text-cyan-100"
+            >
+              GitHub
+            </a>
+            <a
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -678,6 +691,38 @@ export default function ArikPortfolio() {
       <footer className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-8 text-sm text-slate-500 md:flex-row">
           <p>&copy; {new Date().getFullYear()} Arik Hasan. All rights reserved.</p>
+          <div className="flex flex-wrap items-center justify-center gap-5">
+            <a
+              href="mailto:arikhasan16@gmail.com"
+              className="transition hover:text-cyan-200"
+            >
+              Email
+            </a>
+            <a
+              href="https://www.linkedin.com/in/arik-hasan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-cyan-200"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/arikhasan2210"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-cyan-200"
+            >
+              GitHub
+            </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-cyan-200"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </footer>
     </div>
