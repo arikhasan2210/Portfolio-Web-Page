@@ -49,14 +49,13 @@ export default function ArikPortfolio() {
       company: "FINRA",
       period: "Jun 2026 - Present",
       featured: true,
-      bullets: [
-        "Validated FINRA's AI-powered Compliance Screener against industry feedback: distilled 93 complaints from 50+ regulatory comment letters into 17 prioritized user pain points, then scored product coverage to pinpoint the highest-impact gap and authored its feature brief.",
-        "Proposed 3 future opportunities, each mapped to a documented user pain point and its key dependency, to guide the product's longer-term direction.",
-        "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product's feasibility gate, defining success targets, decision triggers, baselines, and automation plans to track post-launch performance.",
-        "Owned customer feedback-driven product discovery for FINRA's regulatory filing platform: analyzed 192 CSAT survey responses, prioritized 15 platform improvements using impact-vs-effort analysis, and delivered leadership recommendations projected to lift customer satisfaction by 6-10 percentage points.",
-        "Won FINRA's company-wide Creatathon with a gamified blockchain learning platform, iterating on comparative usability studies and user feedback; the solution is now being evaluated for broader internal adoption.",
-        "Conducted onboarding and adoption analysis for an AI developer-tooling pilot, identifying and prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
-      ],
+bullets: [
+  "Analyzed industry feedback on an internal AI-powered compliance review tool by distilling 93 complaints from 50+ comment letters into 17 prioritized user pain points, scoring product coverage to pinpoint the highest-impact gap, authoring its feature brief, and proposing 3 future opportunities mapped to key pain points and dependencies.",
+  "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product’s feasibility gate with success targets, decision triggers, baselines, and automation plans to track post-launch performance.",
+  "Led customer feedback-driven product discovery for FINRA's regulatory filing platform by analyzing 192 CSAT survey responses, prioritizing 15 platform improvements using impact-versus-effort analysis, and delivering leadership recommendations projected to improve customer satisfaction by 6-10 percentage points.",
+  "Conducted onboarding and adoption analysis for an AI developer-tooling pilot, identifying and prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
+  "Won FINRA's company-wide Creatathon by designing a gamified blockchain learning platform, iterating on comparative usability studies and user feedback; solution now being evaluated for broader internal adoption.",
+],
       tags: [
         "Product Discovery",
         "Customer Research",
@@ -111,12 +110,12 @@ export default function ArikPortfolio() {
       period: "Jan 2026 - Mar 2026",
       description:
         "A personal finance and budgeting platform for college students, taken from product discovery through MVP delivery.",
-      bullets: [
-        "Led a team from customer discovery through MVP, owning direction and scope.",
-        "Ran customer interviews and user research, translating insights into personas, user stories, requirements, and a prioritized feature set.",
-        "Designed wireframes, prototypes, and UI mockups in Figma, iterating on user and stakeholder feedback.",
-        "Collaborated on implementing budgeting, transaction management, and financial analytics features.",
-      ],
+bullets: [
+  "Led a team in building a personal finance platform for college students from product discovery through MVP delivery.",
+  "Conducted customer interviews and user research, and translated customer insights into personas, user stories, product requirements, and feature prioritization.",
+  "Designed wireframes, prototypes, and UI mockups in Figma, iterating based on user and stakeholder feedback.",
+  "Collaborated with developers to translate product requirements into budgeting, transaction management, and financial analytics features, balancing user needs, technical constraints, and MVP priorities.",
+],
       tags: [
         "Product Discovery",
         "User Research",
