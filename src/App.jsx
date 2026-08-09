@@ -262,7 +262,7 @@ bullets: [
             </h2>
 
             <p className="max-w-2xl text-lg leading-8 text-slate-300">
-              A product manager and Computer Science senior at the University of
+              A product manager, and Computer Science senior at the University of
               Maryland. I turn research and data into product decisions, from
               validating AI-powered tools to shaping roadmaps and measuring real
               impact. I care about intuitive products that solve genuine problems
@@ -273,7 +273,7 @@ bullets: [
               {[
                 "Product Discovery",
                 "Data-Driven Decisions",
-                "Roadmapping",
+                "Technical Products",
                 "User Research",
               ].map((focus) => (
                 <span
@@ -334,10 +334,6 @@ bullets: [
                   <p className="mt-1 font-semibold text-white">Dec 2026</p>
                 </div>
               </div>
-              <p className="mt-4 text-center text-sm text-slate-400">
-                Based in Maryland &middot;{" "}
-                <span className="text-slate-200">open to relocating</span>
-              </p>
             </div>
           </div>
         </div>
