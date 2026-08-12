@@ -50,8 +50,8 @@ export default function ArikPortfolio() {
       period: "Jun 2026 - Present",
       featured: true,
 bullets: [
-  "Analyzed industry feedback on an internal AI-powered compliance review tool by distilling 93 complaints from 50+ comment letters into 17 prioritized user pain points, scoring product coverage to pinpoint the highest-impact gap, authoring its feature brief, and proposing 3 future opportunities mapped to key pain points and dependencies.",
-  "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product’s feasibility gate with success targets, decision triggers, baselines, and automation plans to track post-launch performance.",
+  "Analyzed 50+ public comment letters on an internal AI compliance-review tool, consolidating 93 complaints into 17 prioritized user pain points, then scored product coverage to identify the highest-impact gap, authored the feature brief, and proposed 3 roadmap opportunities that defined its direction and addressed key pain points. ",
+  "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product’s feasibility gate with success targets, decision triggers, baselines and automation plans to track post-launch performance.",
   "Led customer feedback-driven product discovery for FINRA's regulatory filing platform by analyzing 192 CSAT survey responses, prioritizing 15 platform improvements using impact-versus-effort analysis, and delivering leadership recommendations projected to improve customer satisfaction by 6-10 percentage points.",
   "Conducted onboarding and adoption analysis for an AI developer-tooling pilot, identifying and prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
   "Won FINRA's company-wide Creatathon by designing a gamified blockchain learning platform, iterating on comparative usability studies and user feedback; solution now being evaluated for broader internal adoption.",
