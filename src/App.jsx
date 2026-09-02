@@ -315,7 +315,7 @@ bullets: [
               <div className="grid grid-cols-2 gap-3 text-sm">
                 <div className="rounded-2xl border border-white/10 bg-slate-900/70 p-3 transition hover:border-cyan-300/40 hover:bg-slate-900">
                   <p className="text-slate-400">Currently</p>
-                  <p className="mt-1 font-semibold text-white">Product Management Intern, FINRA</p>
+                  <p className="mt-1 font-semibold text-white">Product Manager, Hack4Impact</p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-slate-900/70 p-3 transition hover:border-cyan-300/40 hover:bg-slate-900">
                   <p className="text-slate-400">Open to</p>
