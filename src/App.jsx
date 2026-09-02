@@ -68,6 +68,20 @@ bullets: [
       ],
     },
     {
+      role: "Product Manager",
+      company: "Hack4Impact",
+      period: "Aug 2026- Present",
+      bullets: [
+        "Lead a cross-functional team of engineers and designers to build software solutions for non profit organizations, translating user and organizational needs into product requirements and priorities.",
+        "Own product roadmap and feature prioritization, translating product strategy into sprint plans, user stories, and actionable engineering and design tasks to drive execution"
+      ],
+      tags: [
+        "Product Roadmap",
+        "Feature Prioritization",
+        "Translating User Requirements"
+      ],
+    },
+    {
       role: "Web Assistant",
       company: "Maryland Robotics Center",
       period: "Aug 2025 - Present",
@@ -82,25 +96,7 @@ bullets: [
         "Stakeholder Management",
         "Project Coordination",
       ],
-    },
-    {
-      role: "IT Worker",
-      company: "University of Maryland",
-      period: "Aug 2024 - Jan 2025",
-      bullets: [
-        "Resolved 150+ Jira service tickets supporting software and hardware issues for university staff.",
-        "Managed an inventory database for 300+ devices, reducing asset discrepancies by 30% through systematic audits.",
-        "Configured and deployed 150+ devices across Windows, macOS, and Linux.",
-        "Provided technical support for AV installations in 20+ rooms, improving setup efficiency by 25%.",
-      ],
-      tags: [
-        "Jira",
-        "IT Operations",
-        "Asset Management",
-        "Cross-Platform Deployment",
-        "Process Improvement",
-      ],
-    },
+    }
   ];
 
   const projects = [
