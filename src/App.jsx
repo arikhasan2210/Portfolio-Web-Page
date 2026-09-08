@@ -247,7 +247,7 @@ bullets: [
           <div className="space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1.5 text-sm font-medium text-cyan-200">
               <span className="h-2 w-2 animate-pulse rounded-full bg-cyan-300" />
-              Product Management Intern @ FINRA
+              Product Manager @ Hack4Impact
             </span>
 
             <h2 className="text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl">
