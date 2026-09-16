@@ -19,8 +19,8 @@ export default function ArikPortfolio() {
     },
     {
       value: "1,000+",
-      label: "Users impacted",
-      sub: "through a web platform redesign",
+      label: "Users served",
+      sub: "through Maryland Robotics Center web pages",
     },
   ];
 
@@ -45,56 +45,54 @@ export default function ArikPortfolio() {
 
   const experience = [
     {
-      role: "Product Management Intern",
-      company: "FINRA",
-      period: "Jun 2026 - Present",
+      role: "Product Manager",
+      company: "Hack4Impact-UMD",
+      period: "Aug 2026 - Present",
       featured: true,
-bullets: [
-  "Analyzed 50+ public comment letters on an internal AI compliance-review tool, consolidating 93 complaints into 17 prioritized user pain points, then scored product coverage to identify the highest-impact gap, authored the feature brief, and proposed 3 roadmap opportunities that defined its direction and addressed key pain points. ",
-  "Designed a 7-KPI measurement framework and Go/No-Go decision matrix for the product’s feasibility gate with success targets, decision triggers, baselines and automation plans to track post-launch performance.",
-  "Led customer feedback-driven product discovery for FINRA's regulatory filing platform by analyzing 192 CSAT survey responses, prioritizing 15 platform improvements using impact-versus-effort analysis, and delivering leadership recommendations projected to improve customer satisfaction by 6-10 percentage points.",
-  "Conducted onboarding and adoption analysis for an AI developer-tooling pilot, identifying and prioritizing 13 bottlenecks across three developer toolchains and proposing product enhancements to improve usability.",
-  "Won FINRA's company-wide Creatathon by designing a gamified blockchain learning platform, iterating on comparative usability studies and user feedback; solution now being evaluated for broader internal adoption.",
-],
+      bullets: [
+        "Lead product strategy and delivery as the sole PM on a 15-person team building custom software for Sustainable Saratoga, an environmental nonprofit.",
+        "Translate stakeholder needs into a Product Requirements Document (PRD), defining MVP scope, core feature priorities, end-to-end user flows, and user stories with acceptance criteria.",
+        "Manage a roadmap spanning 14 weekly Agile sprints, aligning design and engineering on technical feasibility, resolving blockers, and managing scope to support on-time MVP delivery.",
+      ],
+      tags: [
+        "Product Strategy",
+        "Product Roadmap",
+        "PRDs",
+        "Agile Delivery",
+        "Stakeholder Management",
+      ],
+    },
+    {
+      role: "Product Manager Intern",
+      company: "FINRA",
+      period: "Jun 2026 - Aug 2026",
+      bullets: [
+        "Turned 93 complaints from 50+ public comment letters into 17 prioritized pain points for an AI compliance-review tool, authored a feature brief, and proposed 3 roadmap opportunities.",
+        "Designed a 7-KPI measurement framework and Go/No-Go decision matrix to evaluate product feasibility and track post-launch performance.",
+        "Analyzed 192 customer survey responses and prioritized 15 filing-platform improvements using impact-versus-effort analysis.",
+        "Identified 13 onboarding and adoption bottlenecks across three AI developer toolchains and recommended usability improvements.",
+        "Won FINRA’s company-wide Creatathon with a gamified blockchain learning platform that advanced to evaluation for broader internal adoption.",
+      ],
       tags: [
         "Product Discovery",
         "Customer Research",
         "Prioritization",
         "KPIs & Metrics",
-        "Roadmapping",
-        "Usability Testing",
         "AI Products",
-        "Executive Communication",
-      ],
-    },
-    {
-      role: "Product Manager",
-      company: "Hack4Impact",
-      period: "Aug 2026- Present",
-      bullets: [
-        "Lead a cross-functional team of engineers and designers to build software solutions for non profit organizations, translating user and organizational needs into product requirements and priorities.",
-        "Own product roadmap and feature prioritization, translating product strategy into sprint plans, user stories, and actionable engineering and design tasks to drive execution"
-      ],
-      tags: [
-        "Product Roadmap",
-        "Feature Prioritization",
-        "Translating User Requirements"
       ],
     },
     {
       role: "Web Assistant",
       company: "Maryland Robotics Center",
-      period: "Aug 2025 - Present",
+      period: "Aug 2025 - Jun 2026",
       bullets: [
-        "Designed and deployed new Drupal and HTML pages, improving navigation and accessibility for 1,000+ users.",
-        "Translated content requirements from faculty and research teams into site updates, coordinating budgets, timelines, and delivery end to end.",
+        "Designed and deployed Drupal and HTML pages serving 1,000+ users.",
+        "Incorporated faculty and research-team feedback to improve navigation, accessibility, and content discoverability.",
       ],
       tags: [
         "Web Publishing",
         "Accessibility",
-        "Content Management",
-        "Stakeholder Management",
-        "Project Coordination",
+        "Stakeholder Collaboration",
       ],
     }
   ];
@@ -106,12 +104,12 @@ bullets: [
       period: "Jan 2026 - Mar 2026",
       description:
         "A personal finance and budgeting platform for college students, taken from product discovery through MVP delivery.",
-bullets: [
-  "Led a team in building a personal finance platform for college students from product discovery through MVP delivery.",
-  "Conducted customer interviews and user research, and translated customer insights into personas, user stories, product requirements, and feature prioritization.",
-  "Designed wireframes, prototypes, and UI mockups in Figma, iterating based on user and stakeholder feedback.",
-  "Collaborated with developers to translate product requirements into budgeting, transaction management, and financial analytics features, balancing user needs, technical constraints, and MVP priorities.",
-],
+      bullets: [
+        "Led a team of 4 from product discovery through MVP delivery.",
+        "Conducted 12 customer interviews and translated insights into personas, user stories, product requirements, and feature priorities.",
+        "Designed wireframes, prototypes, and UI mockups in Figma, iterating based on user and stakeholder feedback.",
+        "Worked with developers to deliver budgeting, transaction management, and financial analytics features within MVP scope.",
+      ],
       tags: [
         "Product Discovery",
         "User Research",
@@ -152,9 +150,9 @@ bullets: [
 
   const certifications = [
     "Aha! Product Management Professional Certificate",
-    "Pendo Product Analytics",
-    "Microsoft Power BI",
-    "Introduction to Artificial Intelligence (AI)",
+    "Pendo",
+    "Power BI",
+    "Agile Foundations",
   ];
 
   const skills = {
@@ -168,6 +166,8 @@ bullets: [
       "Product Analytics",
       "KPI Development",
       "Roadmapping",
+      "PRDs",
+      "Agile & Kanban",
     ],
     technical: [
       "SQL",
@@ -175,6 +175,8 @@ bullets: [
       "HTML/CSS",
       "JavaScript",
       "React",
+      "Node.js",
+      "Express",
       "MongoDB",
       "Java",
       "Drupal",
@@ -258,11 +260,11 @@ bullets: [
             </h2>
 
             <p className="max-w-2xl text-lg leading-8 text-slate-300">
-              A product manager, and Computer Science senior at the University of
-              Maryland. I turn research and data into product decisions, from
-              validating AI-powered tools to shaping roadmaps and measuring real
-              impact. I care about intuitive products that solve genuine problems
-              and move the numbers that matter.
+              I’m a product manager and Computer Science senior at the University
+              of Maryland. I turn customer research into clear product priorities,
+              from AI product discovery at FINRA to leading a 15-person team at
+              Hack4Impact. I’m open to product management opportunities and
+              graduate in December 2026.
             </p>
 
             <div className="flex flex-wrap gap-2">
